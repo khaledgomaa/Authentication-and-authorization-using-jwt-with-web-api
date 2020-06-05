@@ -13,7 +13,7 @@ Note : last version from NuGet Packages
 2- Go to App_Start folder and open Startup.Auth.cs and paste the following code and make your own configuration 
   to make sure the request is trusted or leave it until you know how to write your own
 
-public void Configurationjwt(IAppBuilder app)  
+    public void Configurationjwt(IAppBuilder app)  
         {  
             app.UseJwtBearerAuthentication(  
                 new JwtBearerAuthenticationOptions  
